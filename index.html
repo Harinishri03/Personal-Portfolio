@@ -1,0 +1,568 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+  <meta charset="utf-8" />
+  <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+  <title>Harini's Portfolio</title>
+  <script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" rel="stylesheet" />
+  <style type="text/tailwindcss">
+    :root {
+      --gradient-start: #2b2a4a;
+      --gradient-middle: #4f3b78;
+      --gradient-end: #7d53a1;
+    }
+    body {
+      font-family: 'Inter', sans-serif;
+      background: linear-gradient(135deg, var(--gradient-start) 0%, var(--gradient-middle) 50%, var(--gradient-end) 100%);
+    }
+
+  </style>
+</head>
+<body class="text-white">
+  <div class="flex">
+    <!-- Sidebar -->
+    <aside class="w-[18%]  bg-opacity-10 bg-white p-6 flex flex-col justify-between">
+  <div>
+    <h1 class="text-2xl font-bold mb-12">Welcome!!!</h1>
+    <nav>
+      <ul>
+        <li class="mb-6"><a class="hover:text-gray-300" href="#home">Home</a></li>
+        <li class="mb-6"><a class="hover:text-gray-300" href="#about">About</a></li>
+        <li class="mb-6"><a class="hover:text-gray-300" href="#education">Education Qualifications</a></li>
+        <li class="mb-6"><a class="hover:text-gray-300" href="#projects">Projects</a></li>
+        <li class="mb-6"><a class="hover:text-gray-300" href="#skills">Skills</a></li>
+        <li class="mb-6"><a class="hover:text-gray-300" href="#achievements">Achievements</a></li>
+        <li class="mb-6"><a class="hover:text-gray-300" href="#contact">Contact me</a></li>
+      </ul>
+    </nav>
+  </div>
+  <a href="HARINI SHRI R - RESUME.pdf" 
+   download 
+   class="w-full bg-white bg-opacity-10 border border-white border-opacity-20 rounded-lg py-3 px-4 flex items-center justify-center hover:bg-opacity-20">
+  <span class="material-icons mr-2">download</span>
+  Download Resume
+</a>
+
+</aside>
+
+
+    <!-- Main Content -->
+    <main class="w-[82%] p-16">
+      <!-- Home Section (anchor target) -->
+      <section id="home" class="min-h-[20vh] py-30">
+      <div class="flex items-center justify-between">
+        <div class="w-1/2">
+          <h2 class="text-6xl font-bold leading-tight">Hi, I'm Harini Shri<span class="wave">👋</span></h2>
+          <p class="text-xl mt-4">Agricultural Engineering Student</p>
+          <div class="mt-8 flex items-center space-x-6">
+            <a class="text-white hover:text-gray-300" href="https://www.linkedin.com/in/harinishri-sangeetha/"><i class="fab fa-linkedin-in text-2xl"></i></a>
+            <a class="text-white hover:text-gray-300" href="https://github.com/Harinishri03"><i class="fab fa-github text-2xl"></i></a>
+            <a class="flex items-center text-white hover:text-gray-300" 
+              href="HARINI SHRI R - RESUME.pdf" target="_blank">
+              <span class="material-icons mr-2">description</span>
+              <span>View my CV here</span>
+            </a>
+
+          </div>
+          <!-- About anchor kept here so "About" jumps to this block inside the hero -->
+          <div class="mt-12" id="about" tabindex="-1">
+    <h3 class="text-3xl font-bold text-white mb-4">About Me</h3>
+    <p class="text-lg text-gray-300 leading-relaxed">
+       ”A highly motivated and detail-oriented engineering student with strong skills in web development. I have a
+solid foundation in HTML, CSS, and React, combined with growing expertise in data-driven decision making
+and analytical tools. Passionate about leveraging problem-solving abilities and technical expertise to build efficient, user-friendly solutions that create real impact. I thrive in collaborative environments, continuously seek
+opportunities to learn, and aim to contribute to organizational growth through innovation, adaptability, and
+dedication.”
+    </p>
+    </p>
+  </div>
+        </div>
+        <div class="w-1/2 flex justify-center">
+          <div class="relative">
+            <div class="absolute inset-0 bg-white bg-opacity-10 rounded-3xl transform rotate-6 -translate-x-4 translate-y-4"></div>
+            <img alt="Harini Profile" class="relative rounded-3xl z-10 w-80 h-auto"
+              src="portfoliopic.png" />
+          </div>
+        </div>
+      </div>
+      </section>
+
+      <!-- Education Section -->
+       <section id="education" class="mt-20 relative">
+  <h3 class="text-3xl font-bold mb-12">Education Qualifications</h3>
+  <div class="relative pl-10 space-y-16">
+
+    <!-- Vertical transparent line -->
+    <div class="absolute top-0 left-3 h-full w-1 bg-white opacity-30 rounded"></div>
+
+    <!-- Senior Secondary -->
+    <div class="relative">
+      <div>
+        <h4 class="text-xl font-semibold">B.Tech Agricultural Engineering</h4>
+        <p class="text-gray-300">Bannari Amman Institute of Technology 2022-2026</p>
+        <p class="text-gray-300">Cgpa: 8.25 (upto VIth Semester)</p> 
+      </div>
+    </div>
+
+    <!-- Higher Secondary -->
+    <div class="relative">
+      <div>
+        <h4 class="text-xl font-semibold">Higher Secondary</h4>
+        <p class="text-gray-300">Bannari Amman Public School 2021-2022</p>
+        <p class="text-gray-300">Percentage: 82%</p>
+      </div>
+    </div>
+
+    <!-- Bachelor's Degree -->
+    <div class="relative">
+      
+      <div>
+        <div>
+        <h4 class="text-xl font-semibold">Senior Secondary</h4>
+        <p class="text-gray-300">Bannari Amman Public School 2021-2022</p>
+        <p class="text-gray-300">Percentage: 91%</p>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+      <!-- Projects -->
+       
+       <section id="projects" class="min-h-[50vh] py-20">
+          <h3 class="text-3xl font-bold mb-8">Projects</h3>
+  <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+    
+    <!-- SmartDine -->
+    <div onclick="openProject('smartdine')" class="cursor-pointer bg-white bg-opacity-10 p-6 rounded-2xl hover:bg-opacity-20 transition duration-300">
+      <img alt="SmartDine" class="rounded-lg mb-4 w-full h-40 object-cover"
+        src="flowershopp.png" />
+      <h4 class="text-xl font-bold">Sylvara</h4>
+      <p class="mt-2 text-gray-300">The Flower Shop project is a simple frontend-based web application built using HTML, CSS, and JavaScript. It showcases a clean and visually appealing design for an online flower shopping experience. The website includes essential sections like home, about, products, and contact, styled with responsive layouts for better user experience. JavaScript is used to add basic interactivity, while no backend or database is included. This project focuses on building a user-friendly interface to practice and demonstrate core web development skills.</p>
+    </div>
+
+    
+
+    <!-- College Branding -->
+    <div onclick="openProject('branding')" class="cursor-pointer bg-white bg-opacity-10 p-6 rounded-2xl hover:bg-opacity-20 transition duration-300">
+      <img alt="College Branding" class="rounded-lg mb-4 w-full h-40 object-cover"
+        src="Homepage.png" />
+      <h4 class="text-xl font-bold">QuickStay: Hotel Booking Website</h4>
+      <p class="mt-2 text-gray-300">QuickStay is a responsive and user-friendly hotel booking website designed to simplify the process of finding and reserving accommodations online. The platform allows users to search hotels by location, filter results based on budget, amenities, or ratings, and view detailed room information before booking. It provides a clean interface with a dynamic homepage featuring featured hotels, special offers, and a smart search bar for quick access.
+Each hotel listing includes descriptions, price per night, amenities, and photos to help users make informed decisions. The project focuses on delivering an intuitive booking experience with a clear workflow — from browsing hotels to selecting dates and confirming reservations.
+
+    </div>
+  </div>
+
+  <!-- Project Detail Panel -->
+  <div id="projectPanel" class="fixed top-0 right-0 h-full w-1/2 bg-white text-black z-50 shadow-2xl transform translate-x-full transition-transform duration-700 ease-in-out p-10 overflow-y-auto rounded-l-3xl">
+    <button onclick="closeProject()" class="absolute top-4 right-6 text-black text-2xl font-bold hover:text-red-500 transition">&times;</button>
+    <div id="projectContent"></div>
+  </div>
+</section>
+
+<script>
+  const projectPanel = document.getElementById("projectPanel");
+  const projectContent = document.getElementById("projectContent");
+
+  const projectMap = {
+    smartdine: `
+      <h2 class="text-2xl font-bold mb-4">Sylvara</h2>
+      <img src="flowershopp.png" alt="SmartDine">
+      <p class="mb-4 text-gray-700">The Flower Shop website is a frontend-based project developed using HTML, CSS, and JavaScript to provide a simple yet visually engaging online shopping experience for flowers. 
+        <ul>The primary objective of this project is to design and implement a clean, user-friendly interface that highlights essential web development skills without involving any backend or database integration. <ul/>
+          <ul>The website consists of multiple sections such as Home, About, Products, and Contact, each structured with semantic HTML for accessibility and readability.<ul/>
+            <ul> The CSS is used extensively to design a responsive and visually appealing layout, ensuring that the website adapts to different screen sizes and devices. 
+              <ul/>Aesthetic elements such as color schemes, typography, and layout arrangements were carefully chosen to create a fresh, elegant, and welcoming theme suitable for a flower shop. 
+              <ul>JavaScript is integrated to provide interactivity and enhance the user experience. Features such as dynamic navigation, simple form validation, and product highlighting are implemented using vanilla JavaScript.<ul/>
+                <ul> Although this project does not include a backend or database, it effectively simulates the structure of an e-commerce platform by focusing on the frontend design and client-side functionalities. This project demonstrates the application of fundamental web technologies to build a practical and appealing web interface. It serves as a foundation for future development, where backend technologies or databases can be added to transform it into a fully functional e-commerce platform.<ul/></p>
+      <a href="https://harinishri03.github.io/FlowerShop/" target="_blank" class="inline-block mt-2 text-blue-600 font-semibold hover:underline">🔗 Live Demo</a>
+    `,
+    branding: `
+            <h2 class="text-2xl font-bold mb-4">Hotel Booking Website</h2>
+            <img src="Homepage.png" class="rounded-lg mb-4 w-full" alt="Branding">
+
+            <p class="mb-4 text-gray-700 font-semibold">Project Title:</p>
+            <p class="mb-4 text-gray-700">QuickStay: Luxury Stay at Affordable Price</p>
+
+            <p class="mb-4 text-gray-700 font-semibold">Description:</p>
+            <ul class="list-disc list-inside mb-4 text-gray-700">
+              <li>StayEase is a fully functional and visually engaging hotel booking platform designed to simplify the process of discovering and reserving accommodations online.</li>
+              <li>The website focuses on providing a seamless, user-friendly experience while showcasing hotels, rooms, and amenities in an elegant and informative layout.</li>
+              <li>From browsing popular destinations to filtering hotels based on price, rating, and amenities, StayEase delivers all the essential features of a modern travel booking platform.</li>
+              <li>The homepage features an inviting hero section with a hotel search bar, curated destinations, featured properties, and promotional offers to help users quickly find the perfect stay.</li>
+              <li>Each hotel listing includes detailed descriptions, room types, prices, ratings, and photo galleries to help users make informed decisions before booking.</li>
+            </ul>
+
+            <p class="mb-4 text-gray-700 font-semibold">Key Features & Functionalities:</p>
+            <ul class="list-disc list-inside mb-4 text-gray-700">
+              <li>Responsive UI: Optimized design for desktop, tablet, and mobile users for a consistent experience.</li>
+              <li>Hotel Search & Filters: Users can search by location, check-in/check-out dates, number of guests, and apply filters like price range, rating, and amenities.</li>
+              <li>Hotel Listings: Display of available hotels with images, ratings, and “Book Now” buttons</li>
+              <li>Room Details Page: Each hotel has a dedicated page showing room types, amenities, price per night, and user reviews.</li>
+              <li>Booking System: Interactive booking form allowing users to select dates, guests, and confirm reservations.</li>
+              <li>Navigation: Clear and intuitive menu with links to Home, Hotels, Offers, About, and Contact pages.</li>
+              <li>User Accounts: Option for users to sign up or log in to manage bookings and view their history.</li>
+              <li>Support & Contact: Easily accessible “Contact Us” or “Help” section for queries and assistance.</li>
+              <li>Scroll-to-Top Button: Enhances navigation for pages with long hotel listings.</li>
+            </ul>
+
+            <p class="mb-4 text-gray-700 font-semibold">Workflow:</p>
+            <ul class="list-disc list-inside mb-4 text-gray-700">
+              <li>Browsing: Users land on the homepage, explore featured collections, or navigate through categories.</li>
+              <li>Searching: The search bar allows users to quickly locate a specific watch model or style.</li>
+              <li>Viewing Product Details: Clicking on a product takes users to a dedicated page with product specifications, images, and booking options.</li>
+              <li>Confirmation (Planned Feature): Future implementation will include secure payment integration for completing purchases.</li>
+            </ul>
+
+            <p class="mb-4 text-gray-700 font-semibold">Technology Stack:</p>
+            <ul class="list-disc list-inside mb-4 text-gray-700">
+              <li>Frontend: React js, CSS </li>
+            </ul>
+
+            <p class="mb-4 text-gray-700 font-semibold">Purpose & Learning Outcome:</p>
+            <p class="mb-4 text-gray-700">
+              This project demonstrates the ability to design and develop a responsive, interactive, and user-focused hotel booking platform. It highlights skills in front-end web development, responsive UI design, data structuring, and creating a real-world booking workflow. The project emphasizes practical knowledge of user experience principles and web application functionality for travel and hospitality platforms.
+            </p>
+
+            <a href="https://www.figma.com/design/XyclRCpjmve7BgGSGm3xMr/Hotel-Management?t=pRBb3Piq1e7qKSpk-0" target="_blank" class="inline-block mt-2 text-blue-600 font-semibold hover:underline">🔗 Live Demo (Figma Design)</a>
+          `
+  };
+
+  function openProject(type) {
+    projectContent.innerHTML = projectMap[type] || "<p>No details found.</p>";
+    projectPanel.classList.remove("translate-x-full");
+  }
+
+  function closeProject() {
+    projectPanel.classList.add("translate-x-full");
+  }
+</script>
+
+<!--Skills section-->
+<section id="skills">
+  <div class="max-w-6xl mx-auto p-6">
+  <h2 class="text-2xl font-bold mb-6 text-center">💡 Skills</h2>
+
+  <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+    <!-- C Programming -->
+    <div>
+      <p class="font-medium mb-2">C Programming</p>
+      <div class="flex space-x-2">
+        <div class="w-12 h-3 bg-purple-500 rounded cursor-pointer relative group">
+          <span class="absolute -top-8 left-1/2 -translate-x-1/2 px-2 py-1 
+          text-xs bg-gray-800 text-white rounded opacity-0 group-hover:opacity-100 transition">Basics</span>
+        </div>
+        <div class="w-12 h-3 bg-purple-500 rounded cursor-pointer relative group">
+          <span class="absolute -top-8 left-1/2 -translate-x-1/2 px-2 py-1 
+          text-xs bg-gray-800 text-white rounded opacity-0 group-hover:opacity-100 transition">Loops</span>
+        </div>
+        <div class="w-12 h-3 bg-purple-500 rounded cursor-pointer relative group">
+          <span class="absolute -top-8 left-1/2 -translate-x-1/2 px-2 py-1 
+          text-xs bg-gray-800 text-white rounded opacity-0 group-hover:opacity-100 transition">Arrays</span>
+        </div>
+        <div class="w-12 h-3 bg-purple-500 rounded cursor-pointer relative group">
+          <span class="absolute -top-8 left-1/2 -translate-x-1/2 px-2 py-1 
+          text-xs bg-gray-800 text-white rounded opacity-0 group-hover:opacity-100 transition">Strings</span>
+        </div>
+        <div class="w-12 h-3 bg-gray-300 rounded"></div>
+        <div class="w-12 h-3 bg-gray-300 rounded"></div>
+        <div class="w-12 h-3 bg-gray-300 rounded"></div>
+      </div>
+    </div>
+
+    <!-- Python -->
+    <div>
+      <p class="font-medium mb-2">Python</p>
+      <div class="flex space-x-2">
+        <div class="w-12 h-3 bg-purple-500 rounded cursor-pointer relative group">
+          <span class="absolute -top-8 left-1/2 -translate-x-1/2 px-2 py-1 
+          text-xs bg-gray-800 text-white rounded opacity-0 group-hover:opacity-100 transition">Data types</span>
+        </div>
+        <div class="w-12 h-3 bg-purple-500 rounded cursor-pointer relative group">
+          <span class="absolute -top-8 left-1/2 -translate-x-1/2 px-2 py-1 
+          text-xs bg-gray-800 text-white rounded opacity-0 group-hover:opacity-100 transition">Loops</span>
+        </div>
+        <div class="w-12 h-3 bg-purple-500 rounded cursor-pointer relative group">
+          <span class="absolute -top-8 left-1/2 -translate-x-1/2 px-2 py-1 
+          text-xs bg-gray-800 text-white rounded opacity-0 group-hover:opacity-100 transition">Functions</span>
+        </div>
+        <div class="w-12 h-3 bg-purple-500 rounded cursor-pointer relative group">
+          <span class="absolute -top-8 left-1/2 -translate-x-1/2 px-2 py-1 
+          text-xs bg-gray-800 text-white rounded opacity-0 group-hover:opacity-100 transition">OOPS</span>
+        </div>
+        <div class="w-12 h-3 bg-purple-500 rounded cursor-pointer relative group">
+          <span class="absolute -top-8 left-1/2 -translate-x-1/2 px-2 py-1 
+          text-xs bg-gray-800 text-white rounded opacity-0 group-hover:opacity-100 transition">DSA</span>
+        </div>
+        <div class="w-12 h-3 bg-gray-300 rounded"></div>
+        <div class="w-12 h-3 bg-gray-300 rounded"></div>
+        <div class="w-12 h-3 bg-gray-300 rounded"></div>
+      </div>
+    </div>
+
+    <!-- Java -->
+    <div>
+      <p class="font-medium mb-2">Java Programming</p>
+      <div class="flex space-x-2">
+        <div class="w-12 h-3 bg-purple-500 rounded cursor-pointer relative group">
+          <span class="absolute -top-8 left-1/2 -translate-x-1/2 px-2 py-1 
+          text-xs bg-gray-800 text-white rounded opacity-0 group-hover:opacity-100 transition">Basics</span>
+        </div>
+        <div class="w-12 h-3 bg-purple-500 rounded cursor-pointer relative group">
+          <span class="absolute -top-8 left-1/2 -translate-x-1/2 px-2 py-1 
+          text-xs bg-gray-800 text-white rounded opacity-0 group-hover:opacity-100 transition">Loops</span>
+        </div>
+        <div class="w-12 h-3 bg-purple-500 rounded cursor-pointer relative group">
+          <span class="absolute -top-8 left-1/2 -translate-x-1/2 px-2 py-1 
+          text-xs bg-gray-800 text-white rounded opacity-0 group-hover:opacity-100 transition">Arrays</span>
+        </div>
+        <div class="w-12 h-3 bg-purple-500 rounded cursor-pointer relative group">
+          <span class="absolute -top-8 left-1/2 -translate-x-1/2 px-2 py-1 
+          text-xs bg-gray-800 text-white rounded opacity-0 group-hover:opacity-100 transition">Strings</span>
+        </div>
+        <div class="w-12 h-3 bg-gray-300 rounded"></div>
+        <div class="w-12 h-3 bg-gray-300 rounded"></div>
+        <div class="w-12 h-3 bg-gray-300 rounded"></div>
+      </div>
+    </div>
+
+    <!-- MySQL -->
+    <div>
+      <p class="font-medium mb-2">MySQL</p>
+      <div class="flex space-x-2">
+        <div class="w-12 h-3 bg-purple-500 rounded cursor-pointer relative group">
+          <span class="absolute -top-8 left-1/2 -translate-x-1/2 px-2 py-1 
+          text-xs bg-gray-800 text-white rounded opacity-0 group-hover:opacity-100 transition">DDL</span>
+        </div>
+        <div class="w-12 h-3 bg-purple-500 rounded cursor-pointer relative group">
+          <span class="absolute -top-8 left-1/2 -translate-x-1/2 px-2 py-1 
+          text-xs bg-gray-800 text-white rounded opacity-0 group-hover:opacity-100 transition">DML</span>
+        </div>
+        <div class="w-12 h-3 bg-purple-500 rounded cursor-pointer relative group">
+          <span class="absolute -top-8 left-1/2 -translate-x-1/2 px-2 py-1 
+          text-xs bg-gray-800 text-white rounded opacity-0 group-hover:opacity-100 transition">Constraints</span>
+        </div>
+        <div class="w-12 h-3 bg-purple-500 rounded cursor-pointer relative group">
+          <span class="absolute -top-8 left-1/2 -translate-x-1/2 px-2 py-1 
+          text-xs bg-gray-800 text-white rounded opacity-0 group-hover:opacity-100 transition">Joins</span>
+        </div>
+        <div class="w-12 h-3 bg-purple-500 rounded cursor-pointer relative group">
+          <span class="absolute -top-8 left-1/2 -translate-x-1/2 px-2 py-1 
+          text-xs bg-gray-800 text-white rounded opacity-0 group-hover:opacity-100 transition">SubQueries</span>
+        </div>
+        <div class="w-12 h-3 bg-gray-300 rounded"></div>
+        <div class="w-12 h-3 bg-gray-300 rounded"></div>
+        <div class="w-12 h-3 bg-gray-300 rounded"></div>
+      </div>
+    </div>
+
+    <!-- HTML & CSS -->
+    <div>
+      <p class="font-medium mb-2">HTML & CSS</p>
+      <div class="flex space-x-2">
+        <div class="w-12 h-3 bg-purple-500 rounded cursor-pointer relative group">
+          <span class="absolute -top-8 left-1/2 -translate-x-1/2 px-2 py-1 
+          text-xs bg-gray-800 text-white rounded opacity-0 group-hover:opacity-100 transition">Elements & Tags</span>
+        </div>
+        <div class="w-12 h-3 bg-purple-500 rounded cursor-pointer relative group">
+          <span class="absolute -top-8 left-1/2 -translate-x-1/2 px-2 py-1 
+          text-xs bg-gray-800 text-white rounded opacity-0 group-hover:opacity-100 transition">Attributes</span>
+        </div>
+        <div class="w-12 h-3 bg-purple-500 rounded cursor-pointer relative group">
+          <span class="absolute -top-8 left-1/2 -translate-x-1/2 px-2 py-1 
+          text-xs bg-gray-800 text-white rounded opacity-0 group-hover:opacity-100 transition">Document Structure</span>
+        </div>
+        <div class="w-12 h-3 bg-purple-500 rounded cursor-pointer relative group">
+          <span class="absolute -top-8 left-1/2 -translate-x-1/2 px-2 py-1 
+          text-xs bg-gray-800 text-white rounded opacity-0 group-hover:opacity-100 transition">Properties & Values</span>
+        </div>
+        <div class="w-12 h-3 bg-gray-300 rounded"></div>
+        <div class="w-12 h-3 bg-gray-300 rounded"></div>
+        <div class="w-12 h-3 bg-gray-300 rounded"></div>
+      </div>
+    </div>
+  </div>
+</div>
+</section>
+
+
+      <!-- Achievements with Hover Info -->
+       <!-- Achievements Section -->
+        <section id="achievements" class="min-h-[50vh] py-20">
+            <h3 class="text-3xl font-bold mb-8">Achievements</h3>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+              
+              <!-- Hackathon -->
+              <div onclick="openPanel('hackathon')" class="cursor-pointer bg-white bg-opacity-10 p-6 rounded-2xl hover:bg-opacity-20 transition duration-300">
+                <p class="text-center">🏆 First prize in Bio-hackathon 2022</p>
+              </div>
+
+              <!-- Research Paper -->
+              <div onclick="openPanel('research')" class="cursor-pointer bg-white bg-opacity-10 p-6 rounded-2xl hover:bg-opacity-20 transition duration-300">
+                <p class="text-center"> Second prize in Galaxy' 24 symposium Paper Presentation</p>
+              </div>
+
+              <!-- AWS -->
+              <div onclick="openPanel('sn')" class="cursor-pointer bg-white bg-opacity-10 p-6 rounded-2xl hover:bg-opacity-20 transition duration-300">
+                <p class="text-center">ServiceNow Certifications</p>
+              </div>
+            </div>
+
+            <!-- Sliding Panel -->
+            <div id="detailPanel" class="fixed top-0 right-0 h-full w-1/2 bg-white text-black z-50 shadow-2xl transform translate-x-full transition-transform duration-700 ease-in-out p-10 overflow-y-auto rounded-l-3xl">
+              <button onclick="closePanel()" class="absolute top-4 right-6 text-black text-2xl font-bold hover:text-red-500 transition">&times;</button>
+              <div id="panelContent"></div>
+            </div>
+          </section>
+
+          <script>
+            const detailPanel = document.getElementById("detailPanel");
+            const panelContent = document.getElementById("panelContent");
+
+            const contentMap = {
+              hackathon: `
+                <h2 class="text-2xl font-bold mb-4"> 🧠 Bio-Hackathon 2022</h2>
+                <h3 class="text-xl font-semibold mt-6 mb-2"> Smart Mushroom Cultivation</h3>
+                
+                <p class="text-gray-700 mb-2">
+                  During the Bio Hackathon, I developed an innovative Smart Mushroom Cultivation System aimed at enhancing the efficiency and control of mushroom farming. The core idea was to simulate ideal growing conditions within an isolated cubicle, allowing for year-round, pesticide-free, and highly productive mushroom cultivation.
+                  </p>
+                  <ul class="list-disc list-inside text-gray-700 mb-4">
+            <p class="text-gray-700 mb-2">Key Features of the Project
+            </p>
+            <li>--> Controlled Environment:  Designed an enclosed cubicle with regulated temperature, humidity, and light levels tailored to mushroom growth cycles.</li>
+            <li>--> IoT Integration:   Deployed sensors to monitor environmental conditions and connected them to a microcontroller for real-time data analysis and automatic adjustments.</li>
+            <li>--> Automated System:  Implemented a feedback-based automation that controls fans, misters, and lights based on live sensor data to maintain optimal growing conditions.</li>
+            <li>--> User Interface (Optional for display):  Optionally, the data can be visualized on a web dashboard for farmers to remotely monitor and fine-tune cultivation settings.</li>
+          </ul>
+
+
+    `,
+            research: `
+              <h2 class="text-2xl font-bold mb-4">📝 Research on AI in UI/UX</h2>
+              <p class="mb-4 text-gray-700">
+                <li>Smart Agro Monitoring System is an IoT-based solution designed to assist farmers in efficiently monitoring and managing agricultural conditions in real-time. The system integrates various sensors to collect vital environmental parameters such as soil moisture, temperature, humidity, and light intensity. This data is processed and displayed through a user-friendly interface, enabling farmers to make data-driven decisions for improving crop growth and productivity.</li>
+                <li>The system helps automate irrigation by triggering water supply when soil moisture levels drop below a certain threshold, thereby conserving water and ensuring optimal soil conditions. Real-time data visualization and alerts allow users to monitor field conditions remotely, reducing manual effort and increasing efficiency.</li>
+                <li>Developed using microcontrollers (like Arduino or NodeMCU), sensors, and cloud platforms, this project combines hardware and software components to create a smart, sustainable agricultural solution.</li>
+                <li>This project demonstrates skills in IoT integration, sensor interfacing, data acquisition, automation, and cloud connectivity, showcasing how technology can enhance traditional farming practices through precision agriculture.</li>
+              </p>
+            `,
+            sn: `
+              <h2 class="text-2xl font-bold mb-4">🎓 ServiceNow Certifications</h2>
+
+              <h3 class="text-xl font-semibold mt-6 mb-2">☁️ Certified System Administrator (CSA)</h3>
+              <img src="CSA.png" class="rounded-lg mb-4 w-full" alt="CSA Certification">
+              <p class="text-gray-700 mb-2">
+                Successfully completed the CSA certification, gaining foundational knowledge in configuring, managing, and maintaining the ServiceNow platform.
+              </p>
+              <ul class="list-disc list-inside text-gray-700 mb-4">
+                <li>User and Group Management</li>
+                <li>Instance Configuration with Client Scripts, Business Rules, and UI Policies</li>
+                <li>Data Importing using Transform Maps and Data Policies</li>
+                <li>Service Catalog, Request Items, and Approvals</li>
+                <li>Reports and Dashboards for Data Visualization</li>
+                <li>Incident, Problem, and Change Management</li>
+                <li>Role-based Access Control (ACLs)</li>
+              </ul>
+
+              <h3 class="text-xl font-semibold mt-6 mb-2">💻 Certified Application Developer (CAD)</h3>
+              <img src="CAD.png" class="rounded-lg mb-4 w-full" alt="CAD Certification">
+              <p class="text-gray-700 mb-2">
+                Gained experience building custom applications on the Now Platform using both low-code and pro-code approaches.
+              </p>
+              <ul class="list-disc list-inside text-gray-700 mb-4">
+                <li>Custom App Design & Data Modeling</li>
+                <li>Client Scripts, UI Actions, and Server-side Business Rules</li>
+                <li>Automations with Flow Designer and Workflows</li>
+                <li>Scoped App Security & Role Permissions</li>
+                <li>Basic REST API integrations</li>
+              </ul>
+
+              <p class="text-gray-700">
+                🧪 <strong>Project Highlight:</strong> Built a simple "Network Request" app to handle requests for internet or system access 
+                with role-based routing and approval logic.
+              </p>
+            `
+          };
+
+          function openPanel(type) {
+            panelContent.innerHTML = contentMap[type] || "<p>No details found.</p>";
+            detailPanel.classList.remove("translate-x-full");
+          }
+
+          function closePanel() {
+            detailPanel.classList.add("translate-x-full");
+          }
+        </script>
+
+
+              <!-- Contact -->
+              <section id="contact" class="min-h-[50vh] py-20">
+                <h3 class="text-3xl font-bold mb-8">Contact</h3>
+                <form class="space-y-6" action="https://formspree.io/f/xwpqwagw"
+                  method="POST">
+                  <div>
+                    <label class="block text-sm font-medium text-gray-300" for="name">Name</label>
+                    <input class="mt-1 block w-full bg-white bg-opacity-10 border-white border-opacity-20 rounded-md py-2 px-3 text-white focus:outline-none focus:ring-2 focus:ring-white" id="name" name="name" type="text" />
+                  </div>
+                  <div>
+                    <label class="block text-sm font-medium text-gray-300" for="email">Email</label>
+                    <input class="mt-1 block w-full bg-white bg-opacity-10 border-white border-opacity-20 rounded-md py-2 px-3 text-white focus:outline-none focus:ring-2 focus:ring-white" id="email" name="email" type="email" />
+                  </div>
+                  <div>
+                    <label class="block text-sm font-medium text-gray-300" for="message">Message</label>
+                    <textarea class="mt-1 block w-full bg-white bg-opacity-10 border-white border-opacity-20 rounded-md py-2 px-3 text-white focus:outline-none focus:ring-2 focus:ring-white" id="message" name="message" rows="4"></textarea>
+                  </div>
+                  <div>
+                    <button class="w-full bg-white bg-opacity-20 border border-white border-opacity-30 rounded-lg py-3 px-4 flex items-center justify-center hover:bg-opacity-30" type="submit">
+                      Send Message
+                    </button>
+                  </div>
+                </form>
+              </section>
+            </main>
+          </div>
+          <script>
+          function revealOnScroll() {
+            const reveals = document.querySelectorAll('.reveal');
+            for (let i = 0; i < reveals.length; i++) {
+              const windowHeight = window.innerHeight;
+              const revealTop = reveals[i].getBoundingClientRect().top;
+              const revealPoint = 100;
+
+              if (revealTop < windowHeight - revealPoint) {
+                reveals[i].classList.add('active');
+              }
+            }
+          }
+
+          window.addEventListener('scroll', revealOnScroll);
+          window.addEventListener('load', revealOnScroll); // for refresh
+        </script>
+
+        <!-- Smooth-scroll JS for internal links (handles cases where default anchor jump fails) -->
+        <script>
+          document.querySelectorAll('a[href^="#"]').forEach(link => {
+            link.addEventListener('click', function(e){
+              const href = this.getAttribute('href');
+              if (!href || href === '#' ) return; // ignore plain # links
+              const target = document.querySelector(href);
+              if (target) {
+                e.preventDefault();
+                // make target focusable then scroll (helps with keyboard users)
+                target.setAttribute('tabindex', '-1');
+                target.focus({preventScroll: true});
+                target.scrollIntoView({ behavior: 'smooth', block: 'start' });
+                // update URL hash without jumping
+                history.replaceState(null, '', href);
+              }
+            });
+          });
+        </script>
+
+        </body>
+        </html>
