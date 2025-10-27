@@ -23,34 +23,37 @@
 </head>
 <body class="text-white">
   <div class="flex">
-    <!-- Sidebar -->
-    <aside class="w-[18%]  bg-opacity-10 bg-white p-6 flex flex-col justify-between">
-  <div>
-    <h1 class="text-2xl font-bold mb-12">Welcome!!!</h1>
-    <nav>
-      <ul>
-        <li class="mb-6"><a class="hover:text-gray-300" href="#home">Home</a></li>
-        <li class="mb-6"><a class="hover:text-gray-300" href="#about">About</a></li>
-        <li class="mb-6"><a class="hover:text-gray-300" href="#education">Education Qualifications</a></li>
-        <li class="mb-6"><a class="hover:text-gray-300" href="#projects">Projects</a></li>
-        <li class="mb-6"><a class="hover:text-gray-300" href="#skills">Skills</a></li>
-        <li class="mb-6"><a class="hover:text-gray-300" href="#achievements">Achievements</a></li>
-        <li class="mb-6"><a class="hover:text-gray-300" href="#contact">Contact me</a></li>
-      </ul>
-    </nav>
-  </div>
-  <a href="HARINI SHRI R - RESUME.pdf" 
-   download 
-   class="w-full bg-white bg-opacity-10 border border-white border-opacity-20 rounded-lg py-3 px-4 flex items-center justify-center hover:bg-opacity-20">
-  <span class="material-icons mr-2">download</span>
-  Download Resume
-</a>
+ <!-- Floating Sidebar -->
+   <!-- Floating Sidebar -->
+  <aside class="fixed top-6 left-6 w-[18%] h-[90vh] bg-white bg-opacity-10 backdrop-blur-md border border-white/20 
+  rounded-2xl shadow-2xl p-6 flex flex-col justify-between transition-all duration-300 hover:bg-opacity-20 z-50">
+    <div>
+      <h1 class="text-2xl font-bold mb-12 text-white">Welcome!!!</h1>
+      <nav>
+        <ul>
+          <li class="mb-6"><a class="hover:text-gray-300" href="#home">Home</a></li>
+          <li class="mb-6"><a class="hover:text-gray-300" href="#about">About</a></li>
+          <li class="mb-6"><a class="hover:text-gray-300" href="#education">Education Qualifications</a></li>
+          <li class="mb-6"><a class="hover:text-gray-300" href="#projects">Projects</a></li>
+          <li class="mb-6"><a class="hover:text-gray-300" href="#skills">Skills</a></li>
+          <li class="mb-6"><a class="hover:text-gray-300" href="#achievements">Achievements</a></li>
+          <li class="mb-6"><a class="hover:text-gray-300" href="#contact">Contact me</a></li>
+        </ul>
+      </nav>
+    </div>
 
-</aside>
+    <a href="HARINI SHRI R - RESUME.pdf" 
+       download 
+       class="w-full bg-white bg-opacity-10 border border-white/20 rounded-lg py-3 px-4 flex items-center justify-center hover:bg-opacity-20">
+      <span class="material-icons mr-2">download</span>
+      Download Resume
+    </a>
+  </aside>
+
 
 
     <!-- Main Content -->
-    <main class="w-[82%] p-16">
+    <main class="ml-[22%] p-10 flex-1">
       <!-- Home Section (anchor target) -->
       <section id="home" class="min-h-[20vh] py-30">
       <div class="flex items-center justify-between">
@@ -67,18 +70,20 @@
             </a>
 
           </div>
-          <!-- About anchor kept here so "About" jumps to this block inside the hero -->
+
+          <!-- About  -->
           <div class="mt-12" id="about" tabindex="-1">
-    <h3 class="text-3xl font-bold text-white mb-4">About Me</h3>
-    <p class="text-lg text-gray-300 leading-relaxed">
-       ”A highly motivated and detail-oriented engineering student with strong skills in web development. I have a
-solid foundation in HTML, CSS, and React, combined with growing expertise in data-driven decision making
-and analytical tools. Passionate about leveraging problem-solving abilities and technical expertise to build efficient, user-friendly solutions that create real impact. I thrive in collaborative environments, continuously seek
-opportunities to learn, and aim to contribute to organizational growth through innovation, adaptability, and
-dedication.”
-    </p>
-    </p>
-  </div>
+            <h3 class="text-3xl font-bold text-white mb-4">About Me</h3>
+            <div class="bg-white bg-opacity-10 backdrop-blur-md border border-white/20 rounded-2xl shadow-2xl p-6 max-w-3xl hover:bg-opacity-20 transition-all duration-300">
+              <p class="text-lg text-gray-200 leading-relaxed">
+                  “A highly motivated and detail-oriented engineering student with strong skills in web development. I have a
+            solid foundation in HTML, CSS, and React, combined with growing expertise in data-driven decision making
+            and analytical tools. Passionate about leveraging problem-solving abilities and technical expertise to build efficient, user-friendly solutions that create real impact. I thrive in collaborative environments, continuously seek
+            opportunities to learn, and aim to contribute to organizational growth through innovation, adaptability, and
+            dedication.”
+              </p>
+            </div>
+          </div>
         </div>
         <div class="w-1/2 flex justify-center">
           <div class="relative">
@@ -100,7 +105,7 @@ dedication.”
 
     <!-- Senior Secondary -->
     <div class="relative">
-      <div>
+      <div class="bg-white bg-opacity-10 backdrop-blur-md border border-white/20 rounded-2xl shadow-2xl p-6 max-w-xl hover:bg-opacity-20 transition-all duration-300">
         <h4 class="text-xl font-semibold">B.Tech Agricultural Engineering</h4>
         <p class="text-gray-300">Bannari Amman Institute of Technology 2022-2026</p>
         <p class="text-gray-300">Cgpa: 8.25 (upto VIth Semester)</p> 
@@ -109,7 +114,7 @@ dedication.”
 
     <!-- Higher Secondary -->
     <div class="relative">
-      <div>
+      <div class="bg-white bg-opacity-10 backdrop-blur-md border border-white/20 rounded-2xl shadow-2xl p-6 max-w-xl hover:bg-opacity-20 transition-all duration-300">
         <h4 class="text-xl font-semibold">Higher Secondary</h4>
         <p class="text-gray-300">Bannari Amman Public School 2021-2022</p>
         <p class="text-gray-300">Percentage: 82%</p>
@@ -118,14 +123,11 @@ dedication.”
 
     <!-- Bachelor's Degree -->
     <div class="relative">
-      
-      <div>
-        <div>
+        <div class="bg-white bg-opacity-10 backdrop-blur-md border border-white/20 rounded-2xl shadow-2xl p-6 max-w-xl hover:bg-opacity-20 transition-all duration-300">
         <h4 class="text-xl font-semibold">Senior Secondary</h4>
         <p class="text-gray-300">Bannari Amman Public School 2021-2022</p>
         <p class="text-gray-300">Percentage: 91%</p>
-      </div>
-    </div>
+      </div>  
 
   </div>
 </section>
